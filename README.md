@@ -5,13 +5,13 @@ but goes a bit further and has been improved. This script will also give you the
 This script can be safely used in a multi-odoo code base server because the default Odoo port is changed BEFORE the Odoo is started.
 
 ## Installing Nginx
-If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also configure workers. Without workers you will probably get connection loss issues. Look at [the deployment guide from Odoo](https://www.odoo.com/documentation/15.0/setup/deploy.html) on how to configure workers.
+If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also configure workers. Without workers you will probably get connection loss issues. Look at [the deployment guide from Odoo](https://www.odoo.com/documentation/18.0/setup/deploy.html) on how to configure workers.
 
 ## Installation procedure
 
 ##### 1. Download the script:
 ```
-sudo wget https://raw.githubusercontent.com/hsnhrz/odoo/main/odoo_install.sh
+sudo wget https://raw.githubusercontent.com/hsnhrz/odoo18/main/odoo_install.sh
 ```
 ##### 2. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:<br/>
